@@ -1,0 +1,87 @@
+.footer
+{
+	margin-top: 33px;
+	background: linear-gradient(to right top, #002882, #009540, #ffcc00);
+}
+
+.lojas
+{
+	color: #fff;
+	
+	button, a
+	{
+		color: #fff;
+	}
+}
+
+.whatsapp
+{
+	div
+	{
+		height: auto;
+	}
+	
+	a
+	{
+		padding: 5px 0;
+	}
+}
+
+.logo
+{
+	text-align: center;
+	padding-bottom: 10px;
+	
+	img
+	{
+		width: 120px !important;
+	}
+}
+
+.socialMedia
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.links
+{
+	ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		@media (max-width: 750px)
+		{
+			flex-direction: column;
+			padding: 20px 0;
+		}
+		
+		
+		li
+		{
+			a
+			{
+				display: inline-block;
+				padding: 20px;
+				color: #fff;
+				text-decoration: none;
+				text-align: center;
+				
+				@media(max-width: 750px)
+				{
+					padding: 5px;
+				}
+				
+				&:hover
+				{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

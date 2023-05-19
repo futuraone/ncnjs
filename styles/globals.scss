@@ -1,0 +1,103 @@
+$mainColor: #0d6efd;
+
+body
+{
+	background: #f9f9f9;
+	font-family: 'Lato', sans-serif;
+}
+
+h1
+{
+	margin: 0;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.col-md-3
+{
+	margin-bottom: 30px;
+}
+
+
+// Slick Slider:
+
+.slick-prev:before, .slick-next:before
+{
+	color: #007cff !important;
+}
+
+.destaques-home
+{
+	.slick-list
+	{
+		height: 450px;
+		//display: flex;
+		//align-items: self-end;
+		
+		.slick-slide
+		{
+			
+			& > div
+			{
+				& > div
+				{
+					& > div
+					{
+						margin: 10px !important;
+						height: 400px;
+					}
+				}
+			}
+			
+		}
+	}
+}
+
+// Destaques Home:
+
+.destaques-home
+{
+	padding: 100px 0 50px 0;
+	background-position: top right;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	
+	@media(max-width: 768px)
+	{
+		padding: 70px 0;
+		background-size: 100%;
+	}
+}
+
+.destaques-colchoes
+{
+	background-image: url('/img/home/banner-colchoes.webp');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: top right;
+}
+
+.destaques-eletro
+{
+	background-image: url('/img/home/banner-eletro.webp');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: top right;
+}
+
+.destaques-moveis
+{
+	background-image: url('/img/home/banner-moveis.webp');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: top right;
+}
+
+.modal-title
+{
+	img
+	{
+		width: 100px !important;
+	}
+}

@@ -1,0 +1,79 @@
+$corWhatsApp: #00CF80;
+$alturaWhatsApp: 40px;
+
+.whatsapp
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	background: $corWhatsApp;
+	position: relative;
+	height: $alturaWhatsApp;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .3);
+	
+	@media(max-width: 450px)
+	{
+		padding-left: 15px;
+	}
+	
+	a
+	{
+		color: #fff;
+		text-decoration: none;
+		
+		img
+		{
+			transition: all ease .2s;
+			margin: -4px 10px 0 0;
+		}
+		
+		span
+		{
+			font-weight: bold;
+		}
+		
+		i
+		{
+			display: inline-block;
+			margin: 5px 10px 5px 0;
+			padding: 3px 10px;
+			border-radius: 4px;
+			background: #007aff;
+			font-style: normal;
+			
+			@media(max-width: 630px)
+			{
+				display: none;
+			}
+		}
+		
+		u
+		{
+			margin-right: 10px;
+			
+			@media(max-width: 842px)
+			{
+				display: none;
+			}
+		}
+		
+		b
+		{
+			display: inline-block;
+			margin: 5px 0;
+			padding: 1px 15px;
+			border-radius: 100px;
+			border: 2px solid #fff;
+			font-style: normal;
+		}
+		
+		&:hover
+		{
+			img
+			{
+				transform: scale(1.3);
+			}
+		}
+	}
+}

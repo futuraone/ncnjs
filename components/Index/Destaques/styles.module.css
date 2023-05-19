@@ -1,0 +1,1 @@
+.container{margin:auto}@media(max-width: 575px){.container{width:90%}}.subTitulo{display:flex;align-items:flex-start;flex-direction:column;margin-bottom:40px;padding-left:10px}.subTitulo h2{font-size:25px;display:block;font-weight:bold !important}.subTitulo a{padding:5px 12px}.subTitulo a i{margin-left:7px}/*# sourceMappingURL=styles.module.css.map */

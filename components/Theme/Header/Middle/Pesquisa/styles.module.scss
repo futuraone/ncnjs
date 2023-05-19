@@ -1,0 +1,74 @@
+.form
+{
+	@media (max-width: 991px)
+	{
+		margin-top: 3px;
+	}
+}
+
+.span
+{
+	margin-left: 0 !important;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 15px 0 20px;
+	
+	@media (max-width: 991px)
+	{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+	}
+}
+
+.input
+{
+	border: none;
+	border-radius: 0;
+	background: #fff;
+	padding: 12px 0;
+	width: 300px;
+	
+	@media(max-width: 991px)
+	{
+		padding: 5px;
+		width: 128px;
+	}
+	
+	&:focus
+	{
+		border: none;
+		box-shadow: none;
+	}
+}
+
+.btPesquisa
+{
+	background: #007aff;
+	border: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	padding: 0 15px 0 15px;
+	transition: all ease .3s;
+	
+	&:hover
+	{
+		background: #0066d9;
+	}
+	
+	i
+	{
+		margin-left: 7px;
+	}
+}
+
+@media(max-width: 991px)
+{
+	.spanDesktop, .inputDesktop, .btPesquisaDesktop
+	{
+		display: none;
+	}
+}

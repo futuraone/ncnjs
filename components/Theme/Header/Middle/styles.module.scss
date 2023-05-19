@@ -1,0 +1,40 @@
+.container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	@media(max-width: 991px)
+	{
+		justify-content: center;
+	}
+}
+
+.div
+{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	
+	@media(max-width: 991px)
+	{
+		padding-left: 10px;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}
+
+.socialMedia
+{
+	@media (max-width: 991px)
+	{
+		position: absolute;
+		top: 6px;
+		left: 5px;
+	}
+	
+	@media (max-width: 280px)
+	{
+		display: none;
+	}
+}

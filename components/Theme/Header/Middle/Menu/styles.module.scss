@@ -1,0 +1,84 @@
+.menu
+{
+	display: flex;
+	position: relative;
+	height: 100%;
+	
+	@media(max-width: 991px)
+	{
+		height: auto;
+		margin: 3px 0;
+	}
+	
+	div:first-of-type button
+	{
+		border-bottom-left-radius: 7px;
+		border-top-left-radius: 7px;
+	}
+	
+	@media(max-width: 991px)
+	{
+		div:last-of-type button
+		{
+			border-bottom-right-radius: 7px;
+			border-top-right-radius: 7px;
+		}
+	}
+}
+
+.dropDownPai
+{
+	width: 100%;
+}
+
+.dropDownToggle
+{
+	border-radius: 0;
+	height: 100%;
+	width: 100%;
+	
+	strong
+	{
+		padding: 0 5px;
+	}
+	
+	@media(max-width: 991px)
+	{
+		padding: 5px;
+	}
+}
+
+.dropDownMenu
+{
+	transform: translate3d(0px, 48px, 0px) !important;
+	width: 100%;
+	border: none;
+	border-top-right-radius: 0;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, .1);
+	
+	@media(max-width: 991px)
+	{
+		transform: translate3d(0px, 36px, 0px) !important;
+		border-top-right-radius: 7px;
+	}
+}
+
+.dropDownItem
+{
+	img
+	{
+		margin-right: 15px;
+	}
+}
+
+.btVerTudo
+{
+	padding: 5px 10px;
+	background: linear-gradient(to right, #0066d9, #009540);
+	color: #fff !important;
+	
+	i
+	{
+		margin: 0 18px 0 14px;
+	}
+}

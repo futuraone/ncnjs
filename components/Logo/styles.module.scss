@@ -1,0 +1,26 @@
+.logo
+{
+	position: relative;
+	margin: 10px 0;
+	width: 100px;
+	
+	@media(max-width: 991px)
+	{
+		width: 120px;
+		margin: 0;
+	}
+	
+	img
+	{
+		position: relative !important;
+		transition: all ease .2s;
+	}
+	
+	&:hover
+	{
+		img
+		{
+			transform: scale(1.1);
+		}
+	}
+}
